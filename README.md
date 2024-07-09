@@ -1,5 +1,5 @@
 # Beyond-Perplexity-Multi-dimensional-Safety-Evaluation-of-LLM-Compression
-This is the official repo for paper **Beyond Perplexity: Multi-dimensional Safety Evaluation of LLM Compression**. 
+This is the official repo for paper **Beyond Perplexity: Multi-dimensional Safety Evaluation of LLM Compression**, [link to arXiv paper](https://arxiv.org/abs/2407.04965). 
 
 We evaluate 4 unstructured pruning methods: Magnitude, SparseGPT, Wanda and GBLM, in addition to 3 popular quantization methods: LLM.int8(), AWQ and GPTQ. Our evaluation focus is on safety (degeneration harm, representational bias and dialect bias) of compression methods.
 
@@ -21,12 +21,12 @@ Our implementation will be released soon.
   organization={PMLR}
 }
 @inproceedings{
-sun2024wanda,
-title={A Simple and Effective Pruning Approach for Large Language Models},
-author={Mingjie Sun and Zhuang Liu and Anna Bair and J Zico Kolter},
-booktitle={The Twelfth International Conference on Learning Representations},
-year={2024},
-url={https://openreview.net/forum?id=PxoFut3dWW}
+  sun2024wanda,
+  title={A Simple and Effective Pruning Approach for Large Language Models},
+  author={Mingjie Sun and Zhuang Liu and Anna Bair and J Zico Kolter},
+  booktitle={The Twelfth International Conference on Learning Representations},
+  year={2024},
+  url={https://openreview.net/forum?id=PxoFut3dWW}
 }
 @article{das2023gblm,
   title={Beyond size: How gradients shape pruning decisions in large language models},
